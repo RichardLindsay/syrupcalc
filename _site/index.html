@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/styles.css" rel="stylesheet" />
+  <title>Universal syrup calculator</title>
+
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Universal syrup calculator</h1>
+
+    <form>
+      <div class="field">
+        <label for="">Amount of juice (grams)</label>
+        <input type="number" class="volume">
+      </div>
+      <div class="field">
+        <label for="">Brix of juice (%)</label>
+        <input type="number" class="brix">
+      </div>
+      <button>Get amount of sugar to add</button>
+    </form>
+    <div class="results">
+      <h2>Weight of pre-existing sugar in juice</h2>
+      <h3 class="sugar"></h3>
+      <h2>Weight of juice without pre-existing sugar</h2>
+      <h3 class="juice"></h3>
+      <h2>Amount of sugar needed for 1:1</h2>
+      <h3 class="onetoone"></h3>
+      <h2>Amount of sugar needed for 2:1</h2>
+      <h3 class="twotoone"></h3>
+    </div>
+
+  </div>
+  <div class="wrapper credit">
+    <p>Original created by <a href="https://jeffreymorgenthaler.com/">Jeffrey Morgenthaler</a>, licensed under a <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
+    <p>Only the question wording has been amended.</p>
+    <p>The original blog post can be found <a href="https://jeffreymorgenthaler.com/universal-syrup-calculator/">here</a> and the original calculator can be found <a href="https://docs.google.com/spreadsheets/d/18qlQRaJeLlE1g6OkvfJMtrxljnSYsFD0NNtVmNes3Jw/edit?usp=sharing">here</a>.</p>
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>
